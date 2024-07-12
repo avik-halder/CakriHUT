@@ -1,4 +1,4 @@
-# CakriHUT
+# CakriHUT - Search Your Dream Job Here
 
 CakriHUT is a job portal website built using React and FastAPI. The platform supports multiple user roles, including super admin, admin, and normal users. Users can apply for jobs, search for job openings, and post job opportunities.
 
