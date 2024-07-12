@@ -50,7 +50,7 @@ CakriHUT is a job portal website built using React and FastAPI. The platform sup
 
    - Start the React development server:
      ```sh
-     npm start
+     npm run dev
      ```
 
 ## Usage
