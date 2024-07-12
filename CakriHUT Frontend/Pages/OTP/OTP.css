@@ -1,0 +1,51 @@
+.card-header {
+  color: white !important;
+  background: #00246b !important;
+  text-align: center;
+}
+
+.card-header > img {
+  width: 180px;
+}
+
+.verify-btn {
+  border-radius: 15px !important;
+  border: 0px !important;
+  width: 140px;
+}
+
+
+.countdown-text {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+.countdown-text > p {
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+}
+
+.countdown-text > button {
+  background-color: white;
+  border: none;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/* modalStyles.css */
+.transparent-modal .modal-content {
+  /* background-color: transparent; */
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+.transparent-modal .modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5); 
+}

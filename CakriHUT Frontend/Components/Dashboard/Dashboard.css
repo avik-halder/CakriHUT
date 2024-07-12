@@ -1,0 +1,34 @@
+.edit-profile-modal .modal-content {
+    background-color: transparent;
+    border: none;
+  }
+
+.editprofilebtn{
+    margin-left: 35%;
+}
+
+#changePass{
+  font-size: 18px;
+}
+
+.dashTable{
+  /* style={{ border: "none", borderColor: "transparent", boxShadow: "none"}} */
+  border: none;
+  /* background: red; */
+  border-color: transparent;
+  box-shadow: none;
+  width: 30%;
+  /* font-size: small; */
+}
+@media screen and (max-width: 768px) {
+  .editprofilebtn{
+      margin-left: 16%;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .editprofilebtn{
+      margin-left: 10%;
+  }
+}

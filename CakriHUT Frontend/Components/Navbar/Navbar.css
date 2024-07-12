@@ -1,0 +1,79 @@
+.navbar {
+  background: linear-gradient(310deg, #00246b 55%, #729bec 45%);
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 15px;
+}
+
+.navbar-toggler {
+  border: none !important; /* Remove border */
+  outline: none !important; /* Remove outline */
+  box-shadow: none !important; /* Remove box shadow */
+}
+
+
+#navbarNavDropdown {
+  justify-content: right;
+}
+
+.nav-item {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.nav-link {
+  margin: 15px;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.dropdown-menu {
+  border-radius: 1rem;
+  padding: 5px;
+  margin: 15px;
+}
+.dropdown-item {
+  padding: 0.5rem;
+  margin: 0;
+  border-radius: 10px;
+  background-color: white;
+}
+.nav-link:hover {
+  background-color: #729bec;
+}
+.dropdown-item:hover {
+  background-color: #729bec;
+}
+
+.profiledrop{
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .navbar-nav .nav-link,
+  
+  .navbar-nav .dropdown-toggle {
+    font-size: 14px;
+    margin: 3px;
+    margin-top: 10px;
+  }
+  .navbar-nav .btn{
+    font-size: 14px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-link,
+  .navbar-nav .btn,
+  .navbar-nav .dropdown-toggle {
+    margin: 15px;
+  }
+}
+

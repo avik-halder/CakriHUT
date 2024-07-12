@@ -1,0 +1,50 @@
+.submitjob{
+    margin-left: 38%;
+}
+
+.salary-currency-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.salaryLebel{
+    margin-top: -5px;
+}
+
+.salary-floating-label{
+    flex: 1;
+    margin-right: 10px;
+}
+.currency-floating-label{
+    flex: 1;
+}
+
+.salary-currency-container .form-control,
+.salary-currency-container .form-select {
+    height: calc(3.5rem + 2px); /* Adjust height as needed */
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.salary-floating-label label, .currency-floating-label label {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transform: translateY(0.25rem); /* Adjust this value to fine-tune the label position */
+}
+  
+
+@media screen and (max-width: 768px) {
+    .postjob{
+        font-size: 18px;
+    }
+    .submitjob{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .submitjob{
+        margin-left: 28%;
+    }
+}
